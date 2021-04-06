@@ -32,6 +32,8 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
 
+      - name: Install angular
+        run: npm install -g @angular/cli
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: ./upload.sh
