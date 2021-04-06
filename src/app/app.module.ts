@@ -25,6 +25,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 import { ReactiveFormsModule } from '@angular/forms';
 import { SignInComponent } from './sign-in/sign-in.component';
+import { ForgotComponent } from './forgot/forgot.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { SignInComponent } from './sign-in/sign-in.component';
     ArtComponent,
     ReadingsComponent,
     SignUpComponent,
-    SignInComponent
+    SignInComponent,
+    ForgotComponent
   ],
   imports: [
     BrowserModule,

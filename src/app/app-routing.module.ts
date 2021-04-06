@@ -7,6 +7,7 @@ import { ReadingsComponent } from './readings/readings.component';
 import { ResumeComponent } from './resume/resume.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
+import { ForgotComponent } from './forgot/forgot.component';
 
 const routes: Routes = [
   {path:'',component: HomeComponent},
@@ -16,7 +17,8 @@ const routes: Routes = [
   {path:'art',component:ArtComponent},
   {path:'readings',component:ReadingsComponent},
   {path:'signIn',component:SignInComponent},
-  {path:'signUp',component:SignUpComponent}
+  {path:'signUp',component:SignUpComponent},
+  {path:'forgot',component:ForgotComponent}
 ];
 
 @NgModule({

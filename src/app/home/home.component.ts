@@ -13,7 +13,7 @@ export class HomeComponent {
     map(({ matches }) => {
       if (matches) {
         return [
-          { title: 'Music', cols: 2, rows: 1 },
+          { imageName: "./assets/piano.jpg", title: 'Music', cols: 2, rows: 1 },
           { title: 'Art Gallery', cols: 2, rows: 1 },
           { title: 'Stuff I\'m reading', cols: 2, rows: 1 },
           { title: 'My Blog', cols: 2, rows: 1 },
