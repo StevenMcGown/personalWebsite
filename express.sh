@@ -1,3 +1,4 @@
 git add .
-git commit -m "Express commit"
+read -p "message:" message_var
+git commit -m "$message_var"
 git push
