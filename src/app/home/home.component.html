@@ -1,17 +1,114 @@
-<div class="grid-container">
-  <mat-grid-list cols="2" rowHeight="350px">
-    <mat-grid-tile *ngFor="let card of cards | async" [colspan]="card.cols" [rowspan]="card.rows">
-      <!-- getImage() is written in the ts file -->
-      <mat-card class="dashboard-card" [style.background-image]="card.imageName">
-        <mat-card-header>
-          <mat-card-title>
-            {{card.title}}
-            {{card.imageName}}
-          </mat-card-title>
-        </mat-card-header>
-        <mat-card-content class="dashboard-card-content">
-        </mat-card-content>
-      </mat-card>
-    </mat-grid-tile>
-  </mat-grid-list>
-</div>
+<!DOCTYPE html>
+<html>
+
+<!--
+<head>
+    <link rel="stylesheet" href="resume.component.css">
+</head>
+-->
+
+<body>
+    <div class="space">
+        <br>
+    </div>
+    <div class="content">
+        <br>
+        <h1>Steven T. McGown</h1>
+        <h4>843-592-1633 | stevenmcgown1@gmail.com | Github: <a href="https://github.com/StevenMcGown">StevenMcGown</a>
+            | US Citizen</h4>
+        <hr />
+        <br>
+        <p class="head">EDUCATION</p>
+        <br>
+        <ul>
+            <p><b>University of South Carolina</b> - Columbia, SC
+                (Fall 2016 - Spring 2021)</p>
+            <p>B.S Computer Information Systems</p>
+            <p><b>Minor: </b>Business Information Management</p>
+        </ul>
+        <br>
+
+        <p class="head">RELEVANT COURSEWORK</p>
+        <br>
+        <ul>
+            Accounting, Algorithmic Design, Business Information Systems, Blockchain Business Application,
+            Computer Hardware, Cyber Security, Database Design, Marketing, Programming, Public Relations,
+            Rudimentary AI Development, Software Development, Unix Fundamentals, Website UI
+        </ul>
+        <br>
+
+        <p class="head">WORK EXPERIENCE</p>
+        <br>
+        <ul>
+            <b>Chef and Customer Service - </b> UpperCrust (Spring 2013 - Summer 2016)<br>
+            <b>Infrastructure Analyst Intern - </b>Dominion Energy (Summer 2019)
+            <li>Enterprise network diagnositcs</li>
+            <li>Manual/Automatic virtual deployment and retirement of Linux and Windows servers</li>
+            <li>Fulfilling support tickets</li>
+            <br>
+            <b>DoorDash Driver </b>(Summer 2020 - Present)
+        </ul>
+
+
+        <br>
+        <p class="head">SKILLS</p>
+        <br>
+        <ul>
+            <li>Amazon Web Services: S3, Route 53, CloudFront, Lambda, IAM, Code Pipeline</li>
+            <li>Chatbot Design with Angular, Google Firebase and Dialog Flow</li>
+            <p><a href="https://acmedemo-tefspy.web.app/chat">https://acmedemo-tefspy.web.app/chat</a></p>
+            <li>OS: Windows XP - 10, Mac, Android, iOS, Various linux distros</li>
+            <li>Microsoft Office: Word, Excel, Outlook, Project, PowerPoint | Adobe: Photoshop</li>
+            <li>Programming: Java, Python, C++, C#, HTML, CSS, Javascript, SQL, R, Bash</li>
+            <!--<li>Network diagnostics, Database Design, UI/UX with Angular Framework</li>
+            -->
+        </ul>
+
+        <!--
+        <p class="head">EXTRACIRRICULARS</p>
+        <ul>
+            <li>Volunteer technician at Baptist Collegiate Ministry of Columbia, SC</li>
+            &emsp;- Installation and maintenance of security system and internet connection<br>
+            &emsp;- Tech Support for staff and members<br>
+            &emsp;- Sound configuration and musician for ministry band<br>
+            <li>Game Developer</li>
+            &emsp;- Created a Java-based game engine<br>
+            &emsp;- OpenGl Shading Language<br>
+            &emsp;- OBJ Models and textures made in Blender<br>
+        </ul>-->
+        <br>
+        <p class="head">VOLUNTEER WORK</p>
+        <br>
+        <ul>
+            <b>Eagle Scout - Troop 1</b> (Summer 2016)
+            <li>Eagle Scout Project: Collected and reviewed 4,000+ books to create a school
+                library for Bridge's Preparatory School in Beaufort SC. Leader to scouts from
+                ages 11 - 18.</li>
+        </ul>
+
+        <br>
+        <p class="head">CERTIFICATIONS</p>
+        <br>
+        <ul>
+            <b>Testout PC Pro - </b>Beaufort, SC (March 2016)
+            <li>"Measures an examinee's ability to install, repair, configure, secure, and manage the
+                following systems and devices: Computer Operating Systems, PC Hardware, PC Software,
+                Basic Networking Devices and Printers"</li>
+            <br>
+            <b>Red Cross Adult and Pediatric First Aid/CPR/AED</b> (January 2020)
+            <li>"Gives knowledge and confidence to take the appropriate action in case of an emergency
+                involving a child or an adult."</li>
+        </ul>
+
+        <!-- 
+        <div class="counter">
+            <p>This page has been visited</p>
+            <h4 id="count">0</h4>
+            <p>times.</p>
+            <script type="text/javascript" src="counter.js"></script>
+        </div>-->
+    </div>
+
+</body>
+
+</html>
