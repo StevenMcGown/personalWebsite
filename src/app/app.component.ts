@@ -27,9 +27,9 @@ export class AppComponent implements OnInit {
 
       "particles": {
         "number": {
-          "value": 100,
+          "value": 150,
           "density": {
-            "enable": true,
+            "enable": false,
             "value_area": 800
           }
         },
@@ -45,21 +45,21 @@ export class AppComponent implements OnInit {
         },
         "line_linked": {
           "enable": true,
-          "distance": 150,
+          "distance": 200,
           "color": "#ffffff", //color of line
           "opacity": 0.8, //opacity of line
           "width": 1
         },      
           "move": {
           "enable": true,
-          "speed": 0.15,
+          "speed": 0.2,
           "direction": "none",
           "random": true,
           "straight": false,
           "out_mode": "out",
           "bounce": false,
           "attract": {
-            "enable": true,
+            "enable": false,
             "rotateX": 600,
             "rotateY": 1200
           }
