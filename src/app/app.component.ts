@@ -52,7 +52,7 @@ export class AppComponent implements OnInit {
         },      
           "move": {
           "enable": true,
-          "speed": 0.7,
+          "speed": 0.15,
           "direction": "none",
           "random": true,
           "straight": false,
