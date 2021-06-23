@@ -29,7 +29,6 @@ h4 {
 }
 
 .head {
-   margin: auto;
    font-size: 20px;
    font-weight: bold;
 }
@@ -53,10 +52,6 @@ br {
    margin-top: 10px; /* change this to whatever height you want it */
 }
 
-p {
-   margin: auto;
-}
-
 p.head {
    font-size: 20px;
    text-decoration: underline;
@@ -68,6 +63,12 @@ b {
    font-size: 16px;
 }
 
-.cert {
+.cert, .volunteer {
    margin: 10px;
 }
+
+.Certifications, .VolunteerWork {
+   display: block;
+}
+
+
