@@ -18,13 +18,14 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 import { ReactiveFormsModule } from '@angular/forms'; 
-
+import { ParticlesModule } from 'angular-particle';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent
   ],
   imports: [
+    ParticlesModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
