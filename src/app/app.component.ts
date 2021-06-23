@@ -24,18 +24,52 @@ export class AppComponent implements OnInit {
     };
 
     this.myParams = {
-      particles: {
-        number: {
-          value: 200,
+
+      "particles": {
+        "number": {
+          "value": 100,
+          "density": {
+            "enable": true,
+            "value_area": 800
+          }
         },
-        color: {
-          value: '#ff0000'
+        "color": {
+          "value": "#ffffff"
         },
-        shape: {
-          type: 'triangle',
+        "shape": {
+          "type": "circle",
+          "stroke": {
+            "width": 0,
+            "color": "#000000"
+          }
         },
-      } 
-    };
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#ffffff", //color of line
+          "opacity": 0.8, //opacity of line
+          "width": 1
+        },      
+          "move": {
+          "enable": true,
+          "speed": 0.7,
+          "direction": "none",
+          "random": true,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false,
+          "attract": {
+            "enable": true,
+            "rotateX": 600,
+            "rotateY": 1200
+          }
+        }
+      }, //end of particles
+
+    }; //end of myParams
+
   }
+
+
 
 }
