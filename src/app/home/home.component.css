@@ -70,4 +70,7 @@ b {
    margin: 10px;
 }
 
-
+.btn-holder {
+   position: absolute;
+   width:170px;
+}
