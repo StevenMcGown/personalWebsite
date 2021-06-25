@@ -45,7 +45,7 @@ export class AppComponent implements OnInit {
         },
         "line_linked": {
           "enable": true,
-          "distance": 200,
+          "distance": 260,
           "color": "#ffffff", //color of line
           "opacity": 0.8, //opacity of line
           "width": 1
