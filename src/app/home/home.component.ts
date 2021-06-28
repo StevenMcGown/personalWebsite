@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { map } from 'rxjs/operators';
 import { Breakpoints, BreakpointObserver } from '@angular/cdk/layout';
 
+declare function queryDB(): any;
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -31,5 +33,8 @@ export class HomeComponent {
     })
   );
 
-  constructor(private breakpointObserver: BreakpointObserver) {}
+  constructor(private breakpointObserver: BreakpointObserver) {
+    queryDB();
+
+  }
 }
