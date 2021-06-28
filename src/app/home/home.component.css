@@ -71,6 +71,5 @@ b {
 }
 
 .btn-holder {
-   position: absolute;
-   width:170px;
+   margin: -15px;
 }
