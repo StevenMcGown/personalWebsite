@@ -1,7 +1,11 @@
 import { Component } from '@angular/core';
 import { map } from 'rxjs/operators';
 import { Breakpoints, BreakpointObserver } from '@angular/cdk/layout';
-
+var Count = 123;
+function getCount(){
+  var response = fetch('https://9evudan1v4.execute-api.us-east-1.amazonaws.com/Prod/hello/');
+  return response;
+}
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
