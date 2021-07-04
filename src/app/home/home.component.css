@@ -57,9 +57,15 @@ p {
 
 p.head {
    font-size: 20px;
-   text-decoration: underline;
    text-decoration-thickness: 1px;
    text-underline-offset: 2px;
+}
+
+em {
+text-decoration:none;
+font-size: 13px;
+font-weight:100;
+font-style: normal;
 }
 
 b {
