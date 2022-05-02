@@ -35,8 +35,8 @@ jobs:
       - name: Install angular
         run: sudo npm install -g @angular/cli ; npm install --force ; npm install --legacy-peer-deps
 
-      - name: Install dev dependencies
-        run: npm install --save-dev @angular-devkit/build-angular
+      # - name: Install dev dependencies
+      #   run: npm install --save-dev @angular-devkit/build-angular
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: ./upload.sh
