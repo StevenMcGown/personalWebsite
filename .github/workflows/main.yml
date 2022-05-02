@@ -33,7 +33,7 @@ jobs:
           aws-region: us-east-1
 
       - name: Install angular
-        run: sudo npm install -g @angular/cli
+        run: sudo npm install -g @angular/cli ; npm install --force ; npm install --legacy-peer-deps
 
       - name: Install dev dependencies
         run: npm install --save-dev @angular-devkit/build-angular
